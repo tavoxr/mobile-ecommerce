@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600&family=Raleway:wght@100;300;400&family=Rubik:wght@300;400&display=swap");
+/* Sass Template */
+/* Global classes */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes  */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*Color Template */
+.color-primary {
+  color: #0f2b5e;
+}
+
+.color-primary-bg {
+  background: #0f2b5e;
+}
+
+.color-secondary {
+  color: #3b9fce;
+}
+
+.color-secondary-bg {
+  background: #3b9fce;
+}
+
+.color-yellow {
+  color: #f5f829;
+}
+
+.color-yellow-bg {
+  background: #f5f829;
+}
+
+/*# sourceMappingURL=style.css.map */
