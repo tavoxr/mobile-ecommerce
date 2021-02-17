@@ -7,3 +7,29 @@
 @import './include/typography.scss';
 @import './include/color.scss';
 
+
+.carousel-slide{
+    display: flex;
+
+
+}
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}

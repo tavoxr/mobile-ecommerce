@@ -60,4 +60,30 @@ button, button:focus {
   background: #f5f829;
 }
 
+.carousel-slide {
+  display: flex;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
